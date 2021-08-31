@@ -16,7 +16,7 @@ import {trigger, state, style, animate, transition} from '@angular/animations';
 ]
 })
 export class AppComponent {
-  name = 'Angular';
+  name = 'Dasarathi';
   fileToUpload: any;
   imageUrl: any;
   state: string = 'default';
