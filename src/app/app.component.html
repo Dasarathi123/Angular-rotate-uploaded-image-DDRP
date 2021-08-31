@@ -1,0 +1,10 @@
+<hello name="{{ name }}"></hello>
+<input #Image type="file" (change)="handleFileInput($event.target.files)" />
+<img
+  width="100%"
+  *ngIf="imageUrl"
+  [src]="imageUrl"
+  class="image"
+  [@rotatedState]="state"
+/>
+<button (click)="rotate()">Rotate</button>
